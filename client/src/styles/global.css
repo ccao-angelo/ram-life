@@ -1,0 +1,44 @@
+/* src/styles/global.css */
+
+:root {
+  --ram-blue: #003DA5;
+  --ram-gold: #FFB700;
+  --campus-green: #7DB87A;
+  --path-tan: #C8B99A;
+  --off-white: #F7F5F0;
+  --dark-ink: #1A1A2E;
+}
+
+/* Reset default browser margins */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--off-white);
+  color: var(--dark-ink);
+  /* Inter is the clean body font */
+  font-family: 'Inter', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Fredoka One gives headings that friendly, indie-game feel */
+h1, h2, h3, h4, h5, h6, .game-font {
+  font-family: 'Fredoka One', cursive;
+  color: var(--ram-blue);
+  font-weight: normal; /* Fredoka One is naturally bold */
+  letter-spacing: 0.02em;
+}
+
+/* Add a cool hover effect to all links for better interaction */
+a {
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+a:hover {
+  color: var(--ram-gold) !important;
+  transform: translateY(-2px);
+}
