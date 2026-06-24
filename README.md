@@ -37,9 +37,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features (old version):
+Here's a walkthrough of implemented required features (version 1):
 
-<img src='https://i.imgur.com/lc5SzZ5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/lc5SzZ5.gif' title='Video Walkthrough 1' width='' alt='Video Walkthrough 1' />
+
+Version 2:
+<img src='https://i.imgur.com/y10bt6j.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
 
 GIF created with  GIF tool here [ScreenToGif](https://www.screentogif.com/) for Windows
 
