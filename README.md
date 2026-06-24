@@ -2,9 +2,9 @@
 
 Submitted by: **Chau Cao**
 
-About this web app: **RAM Life is an interactive, game-map-style web app built on a flat-design SVG campus map of Angelo State University. It makes discovering campus events spatial, visual, and fun by allowing students to click on specific buildings to see what's happening inside.**
+About this web app: **RAM Life is an interactive, isometric web app built on a custom-illustrated campus map of Angelo State University. It makes discovering campus events spatial, visual, and highly interactive by allowing students to click on 3D buildings to see what's happening inside.**
 
-Time spent: **5.3** hours
+Time spent: **10.3** hours
 
 ## Required Features
 
