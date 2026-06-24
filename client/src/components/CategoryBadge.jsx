@@ -20,7 +20,7 @@ export default function CategoryBadge({ category }) {
       padding: '4px 8px',
       borderRadius: '12px',
       fontSize: '11px',
-      fontFamily: 'sans-serif',
+      fontFamily: 'Fredoka One',
       textTransform: 'uppercase',
       letterSpacing: '0.05em',
       fontWeight: 'bold'

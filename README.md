@@ -29,17 +29,19 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Buildings on the map feature a dynamic CSS "lift" and drop-shadow on hover to mimic a board game piece.
-- [x] Implemented Google Fonts (`Fredoka One` for headings, `Inter` for body) to give the app a friendly, indie-game vibe that matches the ASU colors.
-- [x] Swapped the default React/Vite logo for a custom inline SVG Ram Emoji (🐏) to match the ASU mascot.
+- [x] Built a custom 4:3 aspect ratio SVG/PNG canvas map. Instead of flat CSS shapes, locations use tightly-cropped transparent PNG buildings mapped to exact X/Y database coordinates.
+- [x] Programmed a staggered "drop-in" board game entrance animation on page load, a gentle breathing/floating effect on map labels, and a 3D isometric jump/drop-shadow effect when buildings are hovered.
+- [x] Event cards utilize translucent backgrounds with a backdrop-blur filter to create a frosted glass effect that perfectly complements the off-white application background.
+- [x] Implemented Google Fonts (`Fredoka One` for headings, `Inter` for body) to give the app a friendly, indie-game vibe that matches the ASU colors and swapped the default React/Vite logo for a custom inline SVG Ram Emoji (🐏) to match the ASU mascot.
+- [x] Seeded the Postgres database with actual ASU campus events (e.g., CLEP Exams, Basketball Showcases, Registration Prep) mapped directly to their real campus locations.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features (old version):
 
 <img src='https://i.imgur.com/lc5SzZ5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...  GIF tool here [ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with  GIF tool here [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 

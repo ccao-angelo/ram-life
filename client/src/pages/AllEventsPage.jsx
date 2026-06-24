@@ -23,7 +23,7 @@ export default function AllEventsPage() {
         fetchEvents();
     }, []);
 
-    if (loading) return <h2 style={{ textAlign: 'center', marginTop: '4rem', fontFamily: 'sans-serif '}}>Loading...</h2>;
+    if (loading) return <h2 style={{ textAlign: 'center', marginTop: '4rem' }}>Loading...</h2>;
 
     const uniqueLocations = ['All', ...new Set(events.map(e => e.location_name))];
 
@@ -32,7 +32,7 @@ export default function AllEventsPage() {
         : events.filter(e => e.location_name === filter);
 
     return (
-        <div style={{ maxWidth: '600px', margin: '0 auto', padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#F7F5F0', minHeight: '100vh' }}>
+        <div style={{ maxWidth: '600px', margin: '0 auto', padding: '2rem', backgroundColor: '#F7F5F0', minHeight: '100vh' }}>
             <Link to="/" style={{ color: '#003DA5', textDecoration: 'none', fontWeight: 'bold' }}>
                 &larr; Back to Map
             </Link>

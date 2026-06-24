@@ -26,7 +26,7 @@ export default function HomePage() {
 
   if (loading) {
     return (
-        <div style={{ textAlign: 'center', marginTop: '4rem', fontFamily: 'sans-serif' }}>
+        <div style={{ textAlign: 'center', marginTop: '4rem' }}>
             <h2>Loading Campus Map...</h2>
         </div>
     );
@@ -34,7 +34,7 @@ export default function HomePage() {
 
   if (error) {
     return (
-        <div style={{ textAlign: 'center', marginTop: '4rem', color: '#C0392B', fontFamily: 'sans-serif' }}>
+        <div style={{ textAlign: 'center', marginTop: '4rem', color: '#C0392B' }}>
             <h2>{error}</h2>
         </div>
     );
@@ -42,7 +42,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: '2rem', textAlign: 'center', backgroundColor: '#F7F5F0', minHeight: '100vh' }}>
-        <h1 style={{ color: '#003DA5', fontFamily: 'sans-serif', margin: '0 0 1rem 0' }}>RAM Life</h1>
+        <h1 style={{ color: '#003DA5', margin: '0 0 1rem 0' }}>RAM Life</h1>
         <p style={{ color: '#1A1A2E', marginBottom: '2rem' }}>Select a campus location to view events.</p>
 
         <div style={{ marginBottom: '2rem' }}>

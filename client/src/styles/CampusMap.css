@@ -4,15 +4,49 @@
   max-width: 800px;
   margin: 0 auto;
   display: block;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-.building-node .building-rect {
-  transition: filter 0.2s ease, transform 0.2s ease;
+.building-image {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s ease;
   transform-origin: center;
   transform-box: fill-box;
 }
 
-.building-node:hover .building-rect {
-  filter: drop-shadow(0 4px 10px rgba(0, 61, 165, 0.6));
-  transform: translateY(-8px);
+/* The Magic Trick: The building jumps up and casts a shadow on the grass! */
+.building-node:hover .building-image {
+  transform: translateY(-12px) scale(1.05);
+  filter: drop-shadow(0 15px 12px rgba(0,0,0,0.5));
+}
+
+.label-wrapper rect {
+  transition: fill 0.2s ease;
+}
+
+.building-node:hover .label-wrapper rect {
+  fill: rgba(0, 61, 165, 0.95); /* Turns ASU Blue on hover */
+}
+
+@keyframes dropIn {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.building-node {
+  animation: dropIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.building-node:nth-child(2) { animation-delay: 0.1s; }
+.building-node:nth-child(3) { animation-delay: 0.2s; }
+.building-node:nth-child(4) { animation-delay: 0.3s; }
+.building-node:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.label-wrapper {
+  animation: gentleFloat 3s ease-in-out infinite;
 }

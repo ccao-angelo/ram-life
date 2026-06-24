@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Fredoka One gives headings that friendly, indie-game feel */
+/* Fredoka One for the friendly, indie-game feel */
 h1, h2, h3, h4, h5, h6, .game-font {
   font-family: 'Fredoka One', cursive;
   color: var(--ram-blue);
@@ -41,4 +41,9 @@ a {
 a:hover {
   color: var(--ram-gold) !important;
   transform: translateY(-2px);
+}
+
+select, button, input {
+  font-family: inherit;
+  font-size: 1rem;
 }
